@@ -284,7 +284,8 @@
   ],
   "vouchers": [
       { "id": 1, "name": "Elektronický dárkový šek 500 Kč", "code": "EAT194417", "validTo": "2020-06-08", "used": false },
-      { "id": 2, "name": "Elektronický dárkový šek 1 000 Kč", "code": "EAT154735", "validTo": "2020-05-15", "used": true }
+      { "id": 2, "name": "Elektronický dárkový šek 500 Kč", "code": "EAT15241", "validTo": "2020-06-07", "used": false },
+      { "id": 3, "name": "Elektronický dárkový šek 1 000 Kč", "code": "EAT154735", "validTo": "2020-05-15", "used": true }
   ],
   "club": {
       "bonuses": [
