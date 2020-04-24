@@ -7,8 +7,12 @@ const port = process.env.PORT || 3000;
 server.use(jsonServer.rewriter({
     "/api/*": "/$1",
     "/reset": "/reset",
-    "/orders/:number": "/orders?number=:number",
-    "/refunds/:number": "/refunds?number=:number",
+    "/orders/?count=:number": "/orderlatest",
+    "/orders": "/orders",
+    "/orders/:number": "/ordersitems?number=:number",
+    "/refunds/?count=:number": "/refundlates",
+    "/refunds": "/refunds",
+    "/refunds/:number": "/refunditems?number=:number",
     "/faq/:type": "/faq?type=:type"
 }));
 
