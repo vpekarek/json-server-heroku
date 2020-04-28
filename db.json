@@ -1,14 +1,14 @@
 {
     "texts": [
         { "code": "client_new_text", "text": "<p>Dobrý den, jsme velice rádi, že vás tu vidíme.</p><p>Váš účet jetě není zcela kompletní, chcete nyní dokončit vyplnění všech údajů?</p>" },
-        { "code": "client_new_btn_text", "text": "DOPLNIT ÚDAJE" },        
+        { "code": "client_new_btn_text", "text": "DOPLNIT ÚDAJE" },
         { "code": "client_welcome_return", "text": "Dobrý den, $first_name$. Vítejte zpět!" },
         { "code": "client_welcome_new", "text": "Vítejte v Astratex klubu" },
 
         { "code": "url_link_back", "text": "zpět" },
         { "code": "url_link_back_to_eshop", "text": "Zpět na e-shop" },
         { "code": "add_to_clipboard", "text": "Zkopírovat kód" },
-        { "code": "added_to_clipboard", "text": "Vloženo do schránky" },
+        { "code": "added_to_clipboard", "text": "Zkopírováno" },
         { "code": "faq_title", "text": "Často kladené dotazy" },
         { "code": "root_breadcrumbs", "text": "Astratex" },
         { "code": "form_required_info", "text": "(povinné)" },
@@ -44,11 +44,11 @@
         { "code": "orders_no_content", "text": "<p><strong>Zatím nemáte žádné objednávky</strong></p><p>Neotálejte a vyberte si ty nejlepší kousky, které můžou být rychle pryč!</p>" },
         { "code": "orders_link_load_next", "text": "Načíst další" },
         { "code": "order_title", "text": "Objednávka #$order_number$" },
-        { "code": "order_number", "text": "#$order_number$" },        
+        { "code": "order_number", "text": "#$order_number$" },
         { "code": "order_state_created", "text": "Přijatá" },
         { "code": "order_state_shipped", "text": "Expedována" },
         { "code": "order_state_done", "text": "Dokončena" },
-        { "code": "order_state_canceled", "text": "Storno" },        
+        { "code": "order_state_canceled", "text": "Storno" },
         { "code": "order_header_state", "text": "Stav" },
         { "code": "order_header_price", "text": "Celková cena" },
         { "code": "order_header_date", "text": "Datum odeslání" },
@@ -66,16 +66,18 @@
         { "code": "refunds_title", "text": "Výměny a vrácení zboží" },
         { "code": "refunds_breadcrumbs", "text": "Výměny a vrácení zboží" },
         { "code": "refund_title", "text": "Výměna č.$order_number$" },
-        { "code": "refund_items_title", "text": "Položky výměny" },        
-        { "code": "refund_item_type_returned", "text": "Vráceno" },
-        { "code": "refund_item_type_ordered", "text": "Objednáno" },
+        { "code": "refund_items_title", "text": "Položky výměny" },
+        { "code": "refund_item_type_returned", "text": "VRÁCENO" },
+        { "code": "refund_item_type_ordered", "text": "ZAKOUPENO" },
 
         { "code": "club_title", "text": "Klubové bonusy" },
         { "code": "club_breadcrumbs", "text": "Klubové bonusy" },
         { "code": "club_bonuses_past_title", "text": "Proběhnuté akce" },
         { "code": "club_coupon_code", "text": "Kód: " },
         { "code": "club_coupon_valid_to", "text": "Platnost: " },
-        
+        { "code": "club_coupon_use_action", "text": "Využít akci" },
+        { "code": "club_coupon_text", "text": "Exkluzivně pro vás" },
+
 
         { "code": "loyalty_title", "text": "Věrnostní program" },
         { "code": "loyalty_breadcrumbs", "text": "Věrnostní program" },
@@ -85,7 +87,7 @@
         { "code": "loyalty_header_date_on_way_format", "text": "$date$ ($points$ bodů)" },
         { "code": "loyalty_header_group", "text": "Zákaznická skupina" },
         { "code": "loyalty_header_points_to_next_group", "text": "K dosažení výšší skupiny" },
-        { "code": "loyalty_history_title", "text": "Historie účtu" },        
+        { "code": "loyalty_history_title", "text": "Historie účtu" },
         { "code": "loyalty_history_points_added", "text": "Připsán 1 bod" },
         { "code": "loyalty_history_points_added_2", "text": "Připsány $points$ body" },
         { "code": "loyalty_history_points_added_5", "text": "Připsáno $points$ bodů" },
@@ -133,7 +135,7 @@
         { "code": "campaign_sales_desc", "text": "Buďte první informováni o všech probíhajících akcích a slevách" },
         { "code": "campaign_news_title", "text": "Novinky ze světa prádla" },
         { "code": "campaign_news_desc", "text": "Žádný nový kousek vám již neproklouzne mezi prsty" },
-        
+
         { "code": "calendar_section_title", "text": "Hlídač událostí" },
         { "code": "calendar_breadcrumbs", "text": "Hlídač událostí" },
         { "code": "calendar_section_description", "text": "Nastavte si upomínku a už nikdy nebudete shánět dárek na poslední chvíli!" },
@@ -154,7 +156,7 @@
         { "code": "calendar_event_field_name", "text": "Jméno" },
         { "code": "calendar_event_field_name_placeholder", "text": "Jméno přítelkyně, kamarádky, ..." },
         { "code": "calendar_event_field_date", "text": "Datum události" },
-        { "code": "calendar_event_field_date_placeholder", "text": "Datum významné události" },
+        { "code": "calendar_event_field_date_placeholder", "text": "Vyberte datum události:" },
         { "code": "calendar_event_field_type", "text": "" },
         { "code": "calendar_event_field_type_placeholder", "text": "" },
         { "code": "calendar_event_notify_by", "text": "Upozornit pomocí:" },
@@ -173,7 +175,7 @@
             "firstName": "Václav",
             "lastName": "Pekárek",
             "email": "vp@programia.cz",
-            "sex": 1
+            "sex": 0
         },
         "addresses": [],
         "campaign": {
@@ -189,14 +191,14 @@
             }
         },
         "sizes": {
-            "bra": [ "95/C" ],
+            "bra": ["95/C"],
             "panties": [],
             "boxers": [],
             "socks": [],
             "stockings": [],
-            "readymade": [ "34", "36" ]
+            "readymade": ["34", "36"]
         },
-        "calendar": {            
+        "calendar": {
             "notifyWhen": 0,
             "events": [
                 { "id": 1, "date": "2019-12-18T00:00:00.000", "eventType": 0, "name": "Jiřina Bohdalová", "notifyEmail": true, "notifySms": false },
@@ -204,7 +206,7 @@
             ]
         },
         "cards": [
-            { "name": "516844****2965", "validTo": "2020-08-30T00:00:00.000"  }
+            { "name": "516844****2965", "validTo": "2020-08-30T00:00:00.000" }
         ],
         "loyalty": {
             "points": 1620,
@@ -220,13 +222,12 @@
         }
     },
     "promos": [
-        { "id": 1, "icon": "%", "text": "Jen tento týden speciální klubová akce 50% sleva na dopravu přes zásilkovnu." }        
+        { "id": 1, "icon": "%", "text": "Jen tento týden speciální klubová akce 50% sleva na dopravu přes zásilkovnu." }
     ],
     "orderlatest": {
         "count": 3,
         "countTotal": 6,
-        "items": [
-            {
+        "items": [{
                 "id": 1,
                 "date": "2020-04-12T00:00:00.000",
                 "number": "12345678",
@@ -267,8 +268,7 @@
     "orders": {
         "count": 6,
         "countTotal": 6,
-        "items": [
-            {
+        "items": [{
                 "id": 1,
                 "date": "2020-04-12T00:00:00.000",
                 "number": "12345678",
@@ -342,8 +342,7 @@
             }
         ]
     },
-    "ordersitems": [
-        {
+    "ordersitems": [{
             "id": 1,
             "date": "2020-04-12T00:00:00.000",
             "number": "12345678",
@@ -419,8 +418,7 @@
     "refundlates": {
         "count": 3,
         "countTotal": 4,
-        "items": [
-            {
+        "items": [{
                 "id": 1,
                 "date": "2020-04-12",
                 "number": "98765432",
@@ -461,8 +459,7 @@
     "refunds": {
         "count": 4,
         "countTotal": 4,
-        "items": [
-            {
+        "items": [{
                 "id": 1,
                 "date": "2020-04-12",
                 "number": "98765432",
@@ -470,7 +467,7 @@
                 "state": 0,
                 "points": -90,
                 "items": [
-                    { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": 899, "refundType": 0 },
+                    { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": -899, "refundType": 0 },
                     { "id": 2, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "75/C", "color": "černá", "count": 1, "pricePerUnit": 899, "refundType": 1 }
                 ]
             },
@@ -482,8 +479,8 @@
                 "state": 20,
                 "points": -250,
                 "items": [
-                    { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": 899, "refundType": 0 },
-                    { "id": 2, "image": "https://i.astratex.cz/prg10/VESTApush_upBLACK_cerna.jpg", "name": "Podprsenka Vestia Black vyztužená s vyjímatelnými vycpávkami", "size": "75/C", "color": "černá", "count": 1, "pricePerUnit": 699, "refundType": 0 }
+                    { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": -899, "refundType": 0 },
+                    { "id": 2, "image": "https://i.astratex.cz/prg10/VESTApush_upBLACK_cerna.jpg", "name": "Podprsenka Vestia Black vyztužená s vyjímatelnými vycpávkami", "size": "75/C", "color": "černá", "count": 1, "pricePerUnit": -699, "refundType": 0 }
                 ]
             },
             {
@@ -494,7 +491,7 @@
                 "state": 20,
                 "points": 30,
                 "items": [
-                    { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": 899, "refundType": 0 },
+                    { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": -899, "refundType": 0 },
                     { "id": 2, "image": "https://i.astratex.cz/prg10/VESTApush_upBLACK_cerna.jpg", "name": "Podprsenka Vestia Black vyztužená s vyjímatelnými vycpávkami", "size": "75/C", "color": "černá", "count": 3, "pricePerUnit": 699, "refundType": 1 }
                 ]
             },
@@ -512,8 +509,7 @@
             }
         ]
     },
-    "refunditems": [
-        {
+    "refunditems": [{
             "id": 1,
             "date": "2020-04-12",
             "number": "98765432",
@@ -521,7 +517,7 @@
             "state": 0,
             "points": -90,
             "items": [
-                { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": 899, "refundType": 0 },
+                { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": -899, "refundType": 0 },
                 { "id": 2, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "75/C", "color": "černá", "count": 1, "pricePerUnit": 899, "refundType": 1 }
             ]
         },
@@ -533,8 +529,8 @@
             "state": 20,
             "points": -250,
             "items": [
-                { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": 899, "refundType": 0 },
-                { "id": 2, "image": "https://i.astratex.cz/prg10/VESTApush_upBLACK_cerna.jpg", "name": "Podprsenka Vestia Black vyztužená s vyjímatelnými vycpávkami", "size": "75/C", "color": "černá", "count": 1, "pricePerUnit": 699, "refundType": 0 }
+                { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": -899, "refundType": 0 },
+                { "id": 2, "image": "https://i.astratex.cz/prg10/VESTApush_upBLACK_cerna.jpg", "name": "Podprsenka Vestia Black vyztužená s vyjímatelnými vycpávkami", "size": "75/C", "color": "černá", "count": 1, "pricePerUnit": -699, "refundType": 0 }
             ]
         },
         {
@@ -545,7 +541,7 @@
             "state": 20,
             "points": 30,
             "items": [
-                { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": 899, "refundType": 0 },
+                { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": -899, "refundType": 0 },
                 { "id": 2, "image": "https://i.astratex.cz/prg10/VESTApush_upBLACK_cerna.jpg", "name": "Podprsenka Vestia Black vyztužená s vyjímatelnými vycpávkami", "size": "75/C", "color": "černá", "count": 3, "pricePerUnit": 699, "refundType": 1 }
             ]
         },
@@ -568,10 +564,12 @@
     ],
     "club": {
         "bonuses": [
-            { "id": 1, "image": null, "name": "BLACK FRIDAY Sleva až 50%", "code": "BF0420", "validTo": "2020-05-25", "used": false },
-            { "id": 2, "image": null, "name": "Sleva 50% na zásilkovnu", "code": "ZAS812-893", "validTo": "2020-05-05", "used": false },
-            { "id": 3, "image": null, "name": "Dárek od Astratexu - 15 Kč k nákupu", "code": "ATX20-132578", "validTo": "2020-03-31", "used": true },
-            { "id": 4, "image": null, "name": "Vánoce 2019 - 250 Kč k nákupu", "code": "VAN19-523132", "validTo": "2019-12-31", "used": false }
+            { "id": 1, "image": null, "name": "BLACK FRIDAY Sleva až 50%", "code": "BF0420", "validTo": "2020-05-25", "used": false, "type": 1 },
+            { "id": 2, "image": "/club/auta.png", "name": "Sleva 50% na zásilkovnu", "code": "ZAS812-893", "validTo": "2020-05-05", "used": false, "type": 1, "link": "/akce_doprava" },
+            { "id": 3, "image": "/club/spodky.png", "name": "BLACK FRIDAY Sleva až 50%", "code": "ZAS812-893", "validTo": "2020-05-05", "used": false, "type": 1, "link": "/akce_spodky" },
+            { "id": 4, "image": null, "name": "Sleva až 30%", "code": "BF0420", "validTo": "2020-05-25", "used": false, "type": 0 },
+            { "id": 5, "image": null, "name": "Dárek od Astratexu - 15 Kč k nákupu", "code": "ATX20-132578", "validTo": "2020-03-31", "used": true, "type": 0 },
+            { "id": 6, "image": null, "name": "Vánoce 2019 - 250 Kč k nákupu", "code": "VAN19-523132", "validTo": "2019-12-31", "used": false, "type": 1, "link": "/akce_vánoce" }
         ]
     },
     "faq": [
