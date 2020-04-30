@@ -57,15 +57,14 @@
         { "code": "order_actions_repeat", "text": "Opakovat objednávku" },
         { "code": "order_actions_review", "text": "Napsat hodnocení" },
         { "code": "order_actions_refund", "text": "Online výměna" },
-        { "code": "order_actions_refund_info", "text": "Počet dní do konce reklamační lhůty: $days$" },
+        { "code": "order_actions_refund_info", "text": "Počet dní do reklamační lhůty: $days$" },
         { "code": "order_items_header", "text": "Položky v objednávce" },
         { "code": "order_item_count", "text": "$count$ ks" },
-        { "code": "order_item_price_unit", "text": "$price_per_unit$" },
-        { "code": "order_item_price", "text": "Cena za $count$ ks: $price$" },
+        { "code": "order_item_price", "text": "Cena za $count$ ks:" },
 
         { "code": "refunds_title", "text": "Výměny a vrácení zboží" },
         { "code": "refunds_breadcrumbs", "text": "Výměny a vrácení zboží" },
-        { "code": "refund_title", "text": "Výměna č.$order_number$" },
+        { "code": "refund_title", "text": "Výměna #$order_number$" },
         { "code": "refund_items_title", "text": "Položky výměny" },
         { "code": "refund_item_type_returned", "text": "VRÁCENO" },
         { "code": "refund_item_type_ordered", "text": "ZAKOUPENO" },
@@ -320,7 +319,7 @@
             },
             {
                 "id": 5,
-                "date": "2020-01-15T00:00:00.000",
+                "date": "2020-04-30T00:00:00.000",
                 "number": "12345674",
                 "price": 135,
                 "state": 20,
@@ -394,7 +393,7 @@
         },
         {
             "id": 5,
-            "date": "2020-01-15T00:00:00.000",
+            "date": "2020-04-30T00:00:00.000",
             "number": "12345674",
             "price": 135,
             "state": 20,
@@ -450,7 +449,7 @@
                 "number": "98765434",
                 "price": 299,
                 "state": 20,
-                "points": 30,
+                "points": 0,
                 "items": [
                     { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": 899, "refundType": 0 },
                     { "id": 2, "image": "https://i.astratex.cz/prg10/VESTApush_upBLACK_cerna.jpg", "name": "Podprsenka Vestia Black vyztužená s vyjímatelnými vycpávkami", "size": "75/C", "color": "černá", "count": 3, "pricePerUnit": 699, "refundType": 1 }
@@ -491,7 +490,7 @@
                 "number": "98765434",
                 "price": 299,
                 "state": 20,
-                "points": 30,
+                "points": 0,
                 "items": [
                     { "id": 1, "image": "https://i.astratex.cz/prg10/SnejannaV54123_15.jpg", "name": "Podprsenka Spacer 3D", "size": "70/D", "color": "grafitová", "count": 2, "pricePerUnit": -899, "refundType": 0 },
                     { "id": 2, "image": "https://i.astratex.cz/prg10/VESTApush_upBLACK_cerna.jpg", "name": "Podprsenka Vestia Black vyztužená s vyjímatelnými vycpávkami", "size": "75/C", "color": "černá", "count": 3, "pricePerUnit": 699, "refundType": 1 }
