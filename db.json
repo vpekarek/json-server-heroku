@@ -16,9 +16,15 @@
         { "code": "notify_field_sms", "text": "Sms" },
         { "code": "notify_field_push", "text": "Oznámení v aplikaci" },
         { "code": "buttons_save_global", "text": "Uložit změny" },
+        { "code": "buttons_save_global_new", "text": "Uložit údaje" },
         { "code": "sex_female", "text": "Žena" },
         { "code": "sex_male", "text": "Muž" },
-
+        { "code": "promo_title", "text": "Nenechte si ujít:" },
+        { "code": "form_field_error_required", "text": "Toto pole je povinné." },
+        { "code": "form_field_error_min_value", "text": "Zadaná hodnota nesmí být nižší než $limit$." },
+        { "code": "form_field_error_max_value", "text": "Zadaná hodnota nesmí být větší než $limit$." },
+        { "code": "form_field_error_min_length", "text": "Minimální délka je $limit$ znaků." },
+        { "code": "form_field_error_max_length", "text": "Maximální délka je $limit$ znaků." },
 
         { "code": "account_breadcrumbs", "text": "Můj účet" },
 
@@ -33,6 +39,7 @@
         { "code": "navigation_vouchers_info", "text": "$count$" },
         { "code": "navigation_client", "text": "Osobní údaje a adresy" },
         { "code": "navigation_client_alert", "text": "stačí 1 minuta k vyplnění" },
+        { "code": "navigation_change_password", "text": "Změna hesla" },
         { "code": "navigation_cards", "text": "Platební karty" },
         { "code": "navigation_sizes", "text": "Moje velikosti" },
         { "code": "navigation_news", "text": "Odběr novinek" },
@@ -41,7 +48,7 @@
 
         { "code": "orders_title", "text": "Moje objednávky" },
         { "code": "orders_breadcrumbs", "text": "Moje objednávky" },
-        { "code": "orders_no_content", "text": "<p><strong>Zatím nemáte žádné objednávky</strong></p><p>Neotálejte a vyberte si ty nejlepší kousky, které můžou být rychle pryč!</p>" },
+        { "code": "orders_no_content", "text": "<p><strong>Zatím nemáte žádné objednávky</strong></p><p class='disabled'>Neotálejte a vyberte si ty nejlepší kousky, které můžou být rychle pryč!</p>" },
         { "code": "orders_link_load_next", "text": "Načíst další" },
         { "code": "order_title", "text": "Objednávka #$order_number$" },
         { "code": "order_number", "text": "#$order_number$" },
@@ -56,7 +63,7 @@
         { "code": "order_header_points_canceled", "text": "Nenabyté věrnostní body" },
         { "code": "order_actions_repeat", "text": "Opakovat objednávku" },
         { "code": "order_actions_review", "text": "Napsat hodnocení" },
-        { "code": "order_actions_refund", "text": "Online výměna" },
+        { "code": "order_actions_refund", "text": "Vyměnit/vrátit zboží" },
         { "code": "order_actions_refund_info", "text": "Počet dní do reklamační lhůty: $days$" },
         { "code": "order_items_header", "text": "Položky v objednávce" },
         { "code": "order_item_count", "text": "$count$ ks" },
@@ -97,6 +104,44 @@
         { "code": "vouchers_title", "text": "Dárkové šeky" },
         { "code": "vouchers_breadcrumbs", "text": "Dárkové šeky" },
         { "code": "vouchers_used_title", "text": "Uplatněné šeky" },
+
+        { "code": "client_title", "text": "Osobní údaje" },
+        { "code": "client_breadcrumbs", "text": "Osobní údaje" },
+        { "code": "client_address_invoice", "text": "Fakturační adresa" },
+        { "code": "client_address_new", "text": "Nové doručovací údaje" },
+        { "code": "client_address_desc_invoice", "text": "U fakturační adresy není možné editovat údaje e-mail a telefon" },
+        { "code": "client_address_field_desc", "text": "Označení údajů" },
+        { "code": "client_address_field_name", "text": "Jméno a příjmení" },
+        { "code": "client_address_field_email", "text": "E-mail" },
+        { "code": "client_address_field_street", "text": "Ulice a čp." },
+        { "code": "client_address_field_city", "text": "Město" },
+        { "code": "client_address_field_postal_code", "text": "PSČ" },
+        { "code": "client_address_field_phone", "text": "Telefon" },
+        { "code": "client_address_field_phone_prefix", "text": "+ 420" },
+        { "code": "client_address_field_is_company", "text": "Firemní údaje" },
+        { "code": "client_address_field_company", "text": "Název firmy" },
+        { "code": "client_address_field_company_id", "text": "IČ" },
+        { "code": "client_address_field_company_tax_id", "text": "DIČ" },
+        { "code": "client_address_field_delivery_address", "text": "Adresa slouží pro doručení" },
+
+        { "code": "client_address_delete_title", "text": "Smazat tyto údaje" },
+        { "code": "client_address_delete_desc", "text": "Odstranění údajů je nevratné a ztratíte tak možnost snadněji dokončit nákup." },
+        { "code": "client_address_delete_question", "text": "Opravdu chcete údaje odstranit?" },
+        { "code": "client_address_delete_confirm", "text": "Ano" },
+        { "code": "client_address_delete_cancel", "text": "Ne" },
+        { "code": "client_address_validation_name_fullname", "text": "Zadejte jméno a příjmení." },
+        { "code": "client_address_validation_street_with_number", "text": "Zadejte ulici a číslo popisné." },
+
+        { "code": "change_password_title", "text": "Změna hesla" },
+        { "code": "change_password_breadcrumbs", "text": "Změna hesla" },
+        { "code": "change_password_section_description", "text": "Zde si můžete kdykoliv změnit své heslo, aby byl Váš účet v bezpečí" },
+        { "code": "change_password_field_current", "text": "Aktuální heslo" },
+        { "code": "change_password_field_new", "text": "Nové heslo" },
+        { "code": "change_password_field_new_repeat", "text": "Zopakujte nové heslo" },
+        { "code": "change_password_requirement_title", "text": "Zvolte heslo, které se dobře pamatuje" },
+        { "code": "change_password_requirement_length", "text": "Obsahuje alespoň 8 znaků" },
+        { "code": "change_password_requirement_chars", "text": "Skládá se z číslic i písmen a nejlépe speciálních znaků (např. !?*)" },
+        { "code": "change_password_btn", "text": "Změnit heslo" },
 
         { "code": "sizes_title", "text": "Moje velikosti" },
         { "code": "sizes_breadcrumbs", "text": "Moje velikosti" },
@@ -178,7 +223,6 @@
             "email": "vp@programia.cz",
             "sex": 0
         },
-        "addresses": [],
         "campaign": {
             "newsletter": {
                 "email": true,
@@ -220,10 +264,49 @@
                 { "orderNumber": "12556532", "date": "2020-01-11T00:00:00.000", "balance": 1458, "transfer": 270 },
                 { "orderNumber": "11356698", "date": "2019-09-29T00:00:00.000", "balance": 1728, "transfer": 120 }
             ]
-        }
+        },
+        "isAccountCompleted": false
     },
+    "addresses": [{
+            "id": 1,
+            "type": 0,
+            "description": "",
+            "firstName": "Václav",
+            "lastName": "Pekárek",
+            "street": "Strážní 124",
+            "city": "Praha",
+            "postalCode": "14000",
+            "phonePrefix": "420",
+            "phone": "607254615",
+            "email": "vp@programia.cz",
+            "isCompany": false,
+            "company": "",
+            "companyId": "",
+            "companyTaxId": "",
+            "isDeliveryDefault": true
+        },
+        {
+            "id": 2,
+            "type": 1,
+            "description": "Doručení do práce",
+            "firstName": "Václav",
+            "lastName": "Pekárek",
+            "street": "Nivnická 312/19",
+            "city": "Brandýs nad Labem - Stará Boleslav",
+            "postalCode": "25001",
+            "phonePrefix": "420",
+            "phone": "737888979",
+            "email": "vp@programia.cz",
+            "isCompany": true,
+            "company": "Programia s.r.o.",
+            "companyId": "",
+            "companyTaxId": "",
+            "isDeliveryDefault": false
+        }
+    ],
     "promos": [
-        { "id": 1, "icon": "%", "text": "Jen tento týden speciální klubová akce 50% sleva na dopravu přes zásilkovnu." }
+        { "id": 1, "text": "Velikonoční výprodej slevy až 60%", "position": 0, "link": "/podprsenky", "linkText": "Využít akci" },
+        { "id": 2, "text": "Velikonoční výprodej slevy až 60%", "position": 1, "link": "/podprsenky", "linkText": "Přejít na akci" }
     ],
     "orderlatest": {
         "count": 3,
