@@ -1,8 +1,6 @@
 {
     "texts": [
-        { "code": "client_new_text", "text": "<p>Dobrý den, jsme velice rádi, že vás tu vidíme.</p><p>Váš účet jetě není zcela kompletní, chcete nyní dokončit vyplnění všech údajů?</p>" },
-        { "code": "client_new_btn_text", "text": "DOPLNIT ÚDAJE" },
-        { "code": "client_welcome_return", "text": "Dobrý den, $first_name$. Vítejte zpět!" },
+        { "code": "client_welcome_return", "text": "Vítejte $name$" },
         { "code": "client_welcome_new", "text": "Vítejte v Astratex klubu" },
 
         { "code": "url_link_back", "text": "zpět" },
@@ -26,25 +24,44 @@
         { "code": "form_field_error_min_length", "text": "Minimální délka je $limit$ znaků." },
         { "code": "form_field_error_max_length", "text": "Maximální délka je $limit$ znaků." },
 
-        { "code": "account_breadcrumbs", "text": "Můj účet" },
-
         { "code": "navigation_main_title", "text": "Můj účet" },
         { "code": "navigation_account_title", "text": "Nastavení účtu" },
         { "code": "navigation_orders", "text": "Objednávky" },
-        { "code": "navigation_refund", "text": "Výměny a vrácení zboží" },
+        { "code": "navigation_refund", "text": "Výměny a vrácení" },
         { "code": "navigation_club", "text": "Klubové bonsy" },
         { "code": "navigation_loyalty", "text": "Věrnostní program" },
         { "code": "navigation_loyalty_info", "text": "($points$ bodů)" },
         { "code": "navigation_vouchers", "text": "Dárkové šeky" },
+        { "code": "navigation_settings", "text": "Nastavení" },
         { "code": "navigation_vouchers_info", "text": "$count$" },
         { "code": "navigation_client", "text": "Osobní údaje a adresy" },
-        { "code": "navigation_client_alert", "text": "stačí 1 minuta k vyplnění" },
         { "code": "navigation_change_password", "text": "Změna hesla" },
-        { "code": "navigation_cards", "text": "Platební karty" },
         { "code": "navigation_sizes", "text": "Moje velikosti" },
+        { "code": "navigation_shopping_preferences", "text": "Nákupní preference" },
         { "code": "navigation_news", "text": "Odběr novinek" },
-        { "code": "navigation_calendar", "text": "Hlídač svátků a narozenin" },
+        { "code": "navigation_social_sites", "text": "Sociální sítě" },
+        { "code": "navigation_cards", "text": "Platební karty" },
+        { "code": "navigation_calendar", "text": "Hlídač událostí" },
         { "code": "navigation_logout", "text": "Odhlásit se" },
+
+        { "code": "registration_title", "text": "Přidejte se do Astratex klubu" },
+        { "code": "registration_success_title", "text": "Vítejte v Astratex klubu" },
+        { "code": "registration_field_email", "text": "E-mail" },
+        { "code": "registration_field_password", "text": "Heslo" },
+        { "code": "registration_button", "text": "Registrovat se" },
+        { "code": "registration_button_login", "text": "Přihlásit se" },
+        { "code": "registration_motivation", "text": "Skvěle, stejně jako 240 tisíc zákazníků jste se rozhodl/a vstoupit do Astratex klubu" },
+        { "code": "registration_note", "text": "Odesláním registrace souhlasím se zpracováním <a href='#'>osobních údajů</a>" },
+        { "code": "registration_confirm_title", "text": "Jste jen krůček od dokončení" },
+        { "code": "registration_confirm_text", "text": "Na váš e-mail $email$ byl odeslán odkaz k potvrzení registrace" },
+        { "code": "registration_confirm_validate_email", "text": "Otevřete prosím tento e-mail a potvrďte založení vašeho nového účtu" },
+        { "code": "registration_exists", "text": "Pro zadaný e-mail již existuje registrace. Zkuste se přihlásit." },
+        { "code": "registration_error", "text": "Došlo k chybě. Zkuste se registrovat později." },
+        { "code": "registration_lost_password", "text": "<a href='#'>Zapomenuté heslo</a>" },
+
+        { "code": "account_breadcrumbs", "text": "Můj účet" },
+        { "code": "account_settings_breadcrumbs", "text": "Nastavení účtu" },
+        { "code": "account_benefits_title", "text": "Výhody účtu" },
 
         { "code": "orders_title", "text": "Moje objednávky" },
         { "code": "orders_breadcrumbs", "text": "Moje objednávky" },
@@ -84,16 +101,29 @@
         { "code": "club_coupon_use_action", "text": "Využít akci" },
         { "code": "club_coupon_text", "text": "Exkluzivně pro vás" },
 
-
         { "code": "loyalty_title", "text": "Věrnostní program" },
         { "code": "loyalty_breadcrumbs", "text": "Věrnostní program" },
         { "code": "loyalty_header_my_points", "text": "Moje body" },
+        { "code": "loyalty_header_points", "text": "bodů" },
+        { "code": "loyalty_header_no_points_title", "text": "Zatím nemáte žádné body :(" },
+        { "code": "loyalty_header_no_points_text", "text": "Hodnotu každého nákupu vám připíšeme do vašich bodů" },
+        { "code": "loyalty_header_more_info", "text": "ZJISTIT VÍCE" },
+
         { "code": "loyalty_header_points_on_way", "text": "Body na cestě" },
         { "code": "loyalty_header_date_on_way", "text": "Další body připíšeme" },
         { "code": "loyalty_header_date_on_way_format", "text": "$date$ ($points$ bodů)" },
         { "code": "loyalty_header_group", "text": "Zákaznická skupina" },
         { "code": "loyalty_header_points_to_next_group", "text": "K dosažení výšší skupiny" },
+        { "code": "loyalty_header_expiration", "text": "$date$ vám expiruje $points$ bodů" },
+        { "code": "loyalty_header_nextpoints_show", "text": "ZOBRAZIT BODY NA CESTĚ" },
+        { "code": "loyalty_header_nextpoints_hide", "text": "SKRÝT BODY NA CESTĚ" },
+        { "code": "loyalty_header_nextpoints_header", "text": "Další body připíšeme:" },
+        { "code": "loyalty_header_nextpoints_total", "text": "Body na cestě celkem" },
+
         { "code": "loyalty_history_title", "text": "Historie účtu" },
+        { "code": "loyalty_history_balance", "text": "Zůstatek" },
+        { "code": "loyalty_history_points", "text": "b." },
+
         { "code": "loyalty_history_points_added", "text": "Připsán 1 bod" },
         { "code": "loyalty_history_points_added_2", "text": "Připsány $points$ body" },
         { "code": "loyalty_history_points_added_5", "text": "Připsáno $points$ bodů" },
@@ -220,6 +250,7 @@
         "user": {
             "firstName": "Václav",
             "lastName": "Pekárek",
+            "vocative": "Václave",
             "email": "vp@programia.cz",
             "sex": 0
         },
@@ -254,18 +285,31 @@
             { "name": "516844****2965", "validTo": "2020-08-30T00:00:00.000" }
         ],
         "loyalty": {
-            "points": 1620,
-            "pointsOnWay": 385,
-            "nextPoints": 240,
-            "nextPointsDate": "2020-08-15",
-            "group": 10,
+            "points": 16521,
+            "expiration": { "points": 500, "date": "2020-06-01T00:00:00.000" },
+            "nextPoints": [
+                { "points": 240, "date": "2020-06-15T00:00:00.000" },
+                { "points": 145, "date": "2020-07-02T00:00:00.000" }
+            ],
+            "groupId": 1,
             "history": [
-                { "orderNumber": "22456524", "date": "2020-03-31T00:00:00.000", "balance": 1620, "transfer": 162 },
-                { "orderNumber": "12556532", "date": "2020-01-11T00:00:00.000", "balance": 1458, "transfer": 270 },
-                { "orderNumber": "11356698", "date": "2019-09-29T00:00:00.000", "balance": 1728, "transfer": 120 }
+                { "orderNumber": "22456524", "description": "", "date": "2020-03-31T00:00:00.000", "balance": 20670, "transfer": 1300 },
+                { "orderNumber": "", "description": "Vypršela platnost", "date": "2020-01-11T00:00:00.000", "balance": 19370, "transfer": -1430 },
+                { "orderNumber": "12556532", "description": "", "date": "2020-01-11T00:00:00.000", "balance": 20800, "transfer": 12200 },
+                { "orderNumber": "", "description": "Vypršela platnost", "date": "2020-01-11T00:00:00.000", "balance": 8600, "transfer": -2200 },
+                { "orderNumber": "11356698", "description": "", "date": "2019-09-29T00:00:00.000", "balance": 10800, "transfer": 1800 }
             ]
         },
         "isAccountCompleted": false
+    },
+    "loyalty": {
+        "id": 1,
+        "name": "Bronzový klub",
+        "description": "Odemkněte stříbrný klub",
+        "note": "Získejte ještě $points$ bodů",
+        "color": "#CF8135",
+        "colorLight": "#F5C99F",
+        "nextLimit": 20000
     },
     "addresses": [{
             "id": 1,
@@ -646,16 +690,6 @@
         { "id": 1, "name": "Elektronický dárkový šek 500 Kč", "code": "EAT194417", "validTo": "2020-06-08", "used": false },
         { "id": 2, "name": "Elektronický dárkový šek 1 000 Kč", "code": "EAT154735", "validTo": "2020-05-15", "used": true }
     ],
-    "club": {
-        "bonuses": [
-            { "id": 1, "image": null, "name": "BLACK FRIDAY Sleva až 50%", "code": "BF0420", "validTo": "2020-05-25", "used": false, "type": 1 },
-            { "id": 2, "image": "/club/auta.png", "name": "Sleva 50% na zásilkovnu", "code": "ZAS812-893", "validTo": "2020-05-05", "used": false, "type": 1, "link": "/akce_doprava" },
-            { "id": 3, "image": "/club/spodky.png", "name": "BLACK FRIDAY Sleva až 50%", "code": "ZAS812-893", "validTo": "2020-05-05", "used": false, "type": 1, "link": "/akce_spodky" },
-            { "id": 4, "image": null, "name": "Sleva až 30%", "code": "BF0420", "validTo": "2020-05-25", "used": false, "type": 0 },
-            { "id": 5, "image": null, "name": "Dárek od Astratexu - 15 Kč k nákupu", "code": "ATX20-132578", "validTo": "2020-03-31", "used": true, "type": 0 },
-            { "id": 6, "image": null, "name": "Vánoce 2019 - 250 Kč k nákupu", "code": "VAN19-523132", "validTo": "2019-12-31", "used": false, "type": 1, "link": "/akce_vánoce" }
-        ]
-    },
     "faq": [
         { "id": 1, "type": 0, "order": 1, "title": "Jak uplatním dárkový šek?", "content": "Šek využijete v košíku Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.", "isOpen": true },
         { "id": 2, "type": 0, "order": 2, "title": "Co dělat, když kód nefunguje?", "content": "Použít jiný.", "isOpen": false },
@@ -668,7 +702,18 @@
         { "id": 9, "type": 2, "order": 2, "title": "Co dělat, když kód nefunguje?", "content": "Použít jiný.", "isOpen": false },
         { "id": 10, "type": 2, "order": 3, "title": "Mohu uplatnit více slev najendou?", "content": "Ne.", "isOpen": false }
     ],
-    "loyalty": {
-        "groups": []
-    }
+    "account_bonuses": [
+        { "id": 1, "image": null, "name": "BLACK FRIDAY Sleva až 50%", "code": "BF0420", "validTo": "2020-05-25", "used": false, "type": 1 },
+        { "id": 2, "image": "/club/auta.png", "name": "Sleva 50% na zásilkovnu", "code": "ZAS812-893", "validTo": "2020-05-05", "used": false, "type": 1, "link": "/akce_doprava" },
+        { "id": 3, "image": "/club/spodky.png", "name": "BLACK FRIDAY Sleva až 50%", "code": "ZAS812-893", "validTo": "2020-05-05", "used": false, "type": 1, "link": "/akce_spodky" },
+        { "id": 4, "image": null, "name": "Sleva až 30%", "code": "BF0420", "validTo": "2020-05-25", "used": false, "type": 0 },
+        { "id": 5, "image": null, "name": "Dárek od Astratexu - 15 Kč k nákupu", "code": "ATX20-132578", "validTo": "2020-03-31", "used": true, "type": 0 },
+        { "id": 6, "image": null, "name": "Vánoce 2019 - 250 Kč k nákupu", "code": "VAN19-523132", "validTo": "2019-12-31", "used": false, "type": 1, "link": "/akce_vánoce" }
+    ],
+    "account_benefits": [
+        { "title": "Doprava zdarma", "text": "užijte si komfort dopravy zdarma, který získáte už od Bronze klubu" },
+        { "title": "Vrácení až do 100 dnů", "text": "vyzkoušejte si v klidu naše prádlo, vrátit ho můžete až 100 dnů od zakoupení" },
+        { "title": "Výměna zdarma", "text": "prádlo můžete vyměnit zdarma a z pohodlí vašeho domova" },
+        { "title": "Akce až o 3 dny dříve", "text": "mějte náskok před běžnými zákazníky a vyberte si ty nejlepší kousky za skvělé ceny" }
+    ]
 }

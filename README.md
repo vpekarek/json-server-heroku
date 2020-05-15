@@ -70,6 +70,10 @@ heroku login
 ```bash
 heroku create my-cool-project
 ```
+or connect to existing app: 
+```bash
+heroku git:remote at-client-profile-json-server
+```
 
 6 . Push your app to __Heroku__ (you will see a wall of code)
 ```bash
