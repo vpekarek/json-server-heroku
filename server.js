@@ -13,7 +13,11 @@ server.use(jsonServer.rewriter({
     "/refunds/?count=:number": "/refundlates",
     "/refunds": "/refunds",
     "/refunds/:number": "/refunditems?number=:number",
-    "/faq/:type": "/faq?type=:type"
+    "/faq/:type": "/faq?type=:type",
+    "/client/address": "/addresses",
+    "/club/bonuses": "/account_bonuses",
+    "/club/benefits": "/account_benefits",
+    "/club/info": "/loyalty"
 }));
 
 server.use(middlewares);

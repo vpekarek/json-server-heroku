@@ -1,3 +1,21 @@
+# UPDATE
+
+1 . Login
+```bash
+heroku login
+```
+
+2 . Change target
+```bash
+heroku git:remote at-client-profile-json-server
+```
+
+3 . Push your app to __Heroku__ (you will see a wall of code)
+```bash
+git push heroku master
+```
+
+
 # Deploy `json-server` to `{{ free hosting site }}`
 
 > Instructions how to deploy the full fake REST API [json-server](https://github.com/typicode/json-server) to various free hosting sites. Should only be used in development purpose but can act as a simpler database for smaller applications.
