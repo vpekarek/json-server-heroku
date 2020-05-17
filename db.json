@@ -15,6 +15,7 @@
         { "code": "notify_field_push", "text": "Oznámení v aplikaci" },
         { "code": "buttons_save_global", "text": "Uložit změny" },
         { "code": "buttons_save_global_new", "text": "Uložit údaje" },
+        { "code": "button_load_next", "text": "Načíst další" },
         { "code": "sex_female", "text": "Žena" },
         { "code": "sex_male", "text": "Muž" },
         { "code": "promo_title", "text": "Nenechte si ujít:" },
@@ -23,6 +24,41 @@
         { "code": "form_field_error_max_value", "text": "Zadaná hodnota nesmí být větší než $limit$." },
         { "code": "form_field_error_min_length", "text": "Minimální délka je $limit$ znaků." },
         { "code": "form_field_error_max_length", "text": "Maximální délka je $limit$ znaků." },
+
+
+        { "code": "onboarding_button_save", "text": "Uložit a pokračovat" },
+        { "code": "onboarding_button_skip", "text": "Přeskočit tento krok" },
+
+        { "code": "onboarding_welcome_title", "text": "Vítejte<br />v Astratex klubu" },
+        { "code": "onboarding_welcome_desc", "text": "Ted máte všechny výhody k dispozici!" },
+        { "code": "onboarding_welcome_note", "text": "Krátce si projdeme základní nastavení účtu. Bude se vám pohodlně nakupovat." },
+        { "code": "onboarding_welcome_button", "text": "Pokračovat" },
+
+        { "code": "onboarding_password_title", "text": "Nastavení hesla" },
+        { "code": "onboarding_password_desc", "text": "Každý bezpečný účet potřebuje heslo" },
+        { "code": "onboarding_password_field_password", "text": "Moje heslo" },
+
+        { "code": "onboarding_client_title", "text": "Osobní údaje" },
+        { "code": "onboarding_client_desc", "text": "Údaje bezpečně uložíme. Svou objednávku dokončíte na pár kliknutí." },
+
+        { "code": "onboarding_setting_title", "text": "Další nastavení" },
+        { "code": "onboarding_setting_desc", "text": "Zpříjemněte si nákup a vyplňte další údaje. Zabere to jen chvilku." },
+        { "code": "onboarding_setting_button_skip", "text": "Přeskočit a jít nakupovat" },
+        { "code": "onboarding_setting_button_later", "text": "Údaje doplním později" },
+        { "code": "onboarding_setting_sizes_title", "text": "Moje velikosti" },
+        { "code": "onboarding_setting_sizes_desc", "text": "Pomůžeme vám s výběrem spodního  prádla a oblečení na míru" },
+        { "code": "onboarding_setting_preference_title", "text": "Nákupní preference" },
+        { "code": "onboarding_setting_preference_desc", "text": "Co u nás nejraději nakupujete? Přizpůsobíme nabídku vaším potřebám" },
+        { "code": "onboarding_setting_campaign_title", "text": "Odběr novinek" },
+        { "code": "onboarding_setting_campaign_desc", "text": "Vyberte si, co vás zajímá a buďte vždy  v obraze o aktuálních trendech a slevách" },
+        { "code": "onboarding_setting_card_title", "text": "Platební karta" },
+        { "code": "onboarding_setting_card_desc", "text": "Nevyplňujte údaje z karty pořád dokola.  Údaje jsou bezpečně uložen v bance" },
+        { "code": "onboarding_setting_calendar_title", "text": "Hlídač událostí" },
+        { "code": "onboarding_setting_calendar_desc", "text": "Už nikdy nezmeškáte nákup vhodného dárku k svátku či narozeninám" },
+
+
+        { "code": "onboarding_", "text": "" },
+
 
         { "code": "navigation_main_title", "text": "Můj účet" },
         { "code": "navigation_account_title", "text": "Nastavení účtu" },
@@ -63,10 +99,18 @@
         { "code": "account_settings_breadcrumbs", "text": "Nastavení účtu" },
         { "code": "account_benefits_title", "text": "Výhody účtu" },
 
+        { "code": "baskte_info_items_in_basket", "text": "V košíku čeká 1 položka" },
+        { "code": "baskte_info_items_in_basket_2", "text": "V košíku čekají $count$ položky" },
+        { "code": "baskte_info_items_in_basket_5", "text": "V košíku čeká $count$ položek" },
+        { "code": "basket_info_points", "text": "1 bod" },
+        { "code": "basket_info_points_2", "text": "$points$ body" },
+        { "code": "basket_info_points_5", "text": "$points$ bodů" },
+        { "code": "basket_info_motivation", "text": "Dokončete nákup nyní a získejte" },
+        { "code": "basket_info_link", "text": "Dokončit nákup" },
+
         { "code": "orders_title", "text": "Moje objednávky" },
         { "code": "orders_breadcrumbs", "text": "Moje objednávky" },
         { "code": "orders_no_content", "text": "<p><strong>Zatím nemáte žádné objednávky</strong></p><p class='disabled'>Neotálejte a vyberte si ty nejlepší kousky, které můžou být rychle pryč!</p>" },
-        { "code": "orders_link_load_next", "text": "Načíst další" },
         { "code": "order_title", "text": "Objednávka #$order_number$" },
         { "code": "order_number", "text": "#$order_number$" },
         { "code": "order_state_created", "text": "Přijatá" },
@@ -96,10 +140,14 @@
         { "code": "club_title", "text": "Klubové bonusy" },
         { "code": "club_breadcrumbs", "text": "Klubové bonusy" },
         { "code": "club_bonuses_past_title", "text": "Proběhnuté akce" },
-        { "code": "club_coupon_code", "text": "Kód: " },
+        { "code": "club_coupon_code", "text": "Kód:" },
+        { "code": "club_bonus_action_text_default", "text": "Začít nakupovat" },
+        { "code": "club_bonus_action_text_passed", "text": "Upozornit na podobnou akci" },
+        { "code": "club_bonus_points_mark", "text": "Extra body" },
+        { "code": "club_link_to_all", "text": "Všechny klubové bonusy" },
+        { "code": "club_top_bonus_title", "text": "Akce pro členy $club$" },
         { "code": "club_coupon_valid_to", "text": "Platnost: " },
-        { "code": "club_coupon_use_action", "text": "Využít akci" },
-        { "code": "club_coupon_text", "text": "Exkluzivně pro vás" },
+
 
         { "code": "loyalty_title", "text": "Věrnostní program" },
         { "code": "loyalty_breadcrumbs", "text": "Věrnostní program" },
@@ -291,7 +339,7 @@
                 { "points": 240, "date": "2020-06-15T00:00:00.000" },
                 { "points": 145, "date": "2020-07-02T00:00:00.000" }
             ],
-            "groupId": 1,
+            "clubId": 1,
             "history": [
                 { "orderNumber": "22456524", "description": "", "date": "2020-03-31T00:00:00.000", "balance": 20670, "transfer": 1300 },
                 { "orderNumber": "", "description": "Vypršela platnost", "date": "2020-01-11T00:00:00.000", "balance": 19370, "transfer": -1430 },
@@ -302,14 +350,46 @@
         },
         "isAccountCompleted": false
     },
-    "loyalty": {
+    "club": {
         "id": 1,
-        "name": "Bronzový klub",
-        "description": "Odemkněte stříbrný klub",
+        "name": "Basic klub",
+        "nameGen": "Basic klubu",
+        "description": "Odemkněte bronzový klub",
         "note": "Získejte ještě $points$ bodů",
-        "color": "#CF8135",
-        "colorLight": "#F5C99F",
-        "nextLimit": 20000
+        "color": "#0A004A",
+        "colorLight": "#CCC4FF",
+        "nextLimit": 20000,
+        "nextClub": {
+            "id": 2,
+            "name": "Bronzový klub",
+            "nameGen": "bronzového klubu",
+            "description": "Odemkněte stříbrný klub",
+            "note": "Získejte ještě $points$ bodů",
+            "color": "#CF8135",
+            "colorLight": "#F5C99F",
+            "nextLimit": 30000,
+            "nextClub": {
+                "id": 3,
+                "name": "Stříbrný klub",
+                "nameGen": "stříbrného klubu",
+                "description": "Odemkněte zlatý klub",
+                "note": "Získejte ještě $points$ bodů",
+                "color": "#959DA3",
+                "colorLight": "#D8E3EE",
+                "nextLimit": 40000,
+                "nextClub": {
+                    "id": 4,
+                    "name": "Zlatý klub",
+                    "nameGen": "zlatého klubu",
+                    "description": "Gratulujeme",
+                    "note": "Jste mezi 2 % zákazníků",
+                    "color": "#BB9B49",
+                    "colorLight": "#EBD197",
+                    "nextLimit": 0,
+                    "nextClub": null
+                }
+            }
+        }
     },
     "addresses": [{
             "id": 1,
@@ -703,17 +783,35 @@
         { "id": 10, "type": 2, "order": 3, "title": "Mohu uplatnit více slev najendou?", "content": "Ne.", "isOpen": false }
     ],
     "account_bonuses": [
-        { "id": 1, "image": null, "name": "BLACK FRIDAY Sleva až 50%", "code": "BF0420", "validTo": "2020-05-25", "used": false, "type": 1 },
-        { "id": 2, "image": "/club/auta.png", "name": "Sleva 50% na zásilkovnu", "code": "ZAS812-893", "validTo": "2020-05-05", "used": false, "type": 1, "link": "/akce_doprava" },
-        { "id": 3, "image": "/club/spodky.png", "name": "BLACK FRIDAY Sleva až 50%", "code": "ZAS812-893", "validTo": "2020-05-05", "used": false, "type": 1, "link": "/akce_spodky" },
-        { "id": 4, "image": null, "name": "Sleva až 30%", "code": "BF0420", "validTo": "2020-05-25", "used": false, "type": 0 },
-        { "id": 5, "image": null, "name": "Dárek od Astratexu - 15 Kč k nákupu", "code": "ATX20-132578", "validTo": "2020-03-31", "used": true, "type": 0 },
-        { "id": 6, "image": null, "name": "Vánoce 2019 - 250 Kč k nákupu", "code": "VAN19-523132", "validTo": "2019-12-31", "used": false, "type": 1, "link": "/akce_vánoce" }
+        { "id": 1, "clubId": 1, "type": 0, "name": "Sleva 25 % na dopravu Zásilkovnou", "code": null, "active": true, "link": "/", "actionText": null },
+        { "id": 2, "clubId": 1, "type": 1, "name": "Výměna zboží tam i zpět zdarma", "code": null, "active": true, "link": "/", "actionText": null },
+        { "id": 3, "clubId": 1, "type": 2, "name": "Název akce - body", "code": null, "active": true, "link": "/", "actionText": "Napsat recenzi" },
+        { "id": 4, "clubId": 1, "type": 3, "name": "Název akce - kupon", "code": "ZAS812-893", "active": true, "link": "/", "actionText": "Použít poukaz" },
+        { "id": 5, "clubId": 1, "type": 4, "name": "Název akce - procenta", "code": null, "active": true, "link": "/", "actionText": null },
+        { "id": 6, "clubId": 1, "type": 5, "name": "Název akce - čas", "code": null, "active": true, "link": "/", "actionText": null },
+        { "id": 7, "clubId": 1, "type": 1, "name": "Název akce - výměna", "code": null, "active": false, "link": "/", "actionText": null },
+        { "id": 8, "clubId": 1, "type": 0, "name": "Název akce - doprava", "code": null, "active": false, "link": "/", "actionText": null },
+        { "id": 9, "clubId": 1, "type": 3, "name": "Název akce - kupon", "code": "ZAS813-573", "active": false, "link": "/", "actionText": "Použít poukaz" },
+
+        { "id": 10, "clubId": 2, "type": 2, "name": "Název akce - body", "code": null, "active": true, "link": "/", "actionText": "Vyplnit dotazník" },
+        { "id": 11, "clubId": 2, "type": 3, "name": "Název akce - kupon", "code": "ZAS8578915", "active": true, "link": "/", "actionText": "Použít poukaz" },
+        { "id": 12, "clubId": 2, "type": 4, "name": "Název akce - procenta", "code": null, "active": true, "link": "/", "actionText": null },
+        { "id": 13, "clubId": 2, "type": 0, "name": "Název akce - doprava", "code": null, "active": true, "link": "/", "actionText": null },
+        { "id": 14, "clubId": 3, "type": 1, "name": "Název akce - výměny", "code": null, "active": true, "link": "/", "actionText": null },
+        { "id": 15, "clubId": 3, "type": 5, "name": "Název akce - čas", "code": null, "active": true, "link": "/", "actionText": null },
+        { "id": 16, "clubId": 3, "type": 5, "name": "Název akce - čas", "code": null, "active": true, "link": "/", "actionText": "Jiný text" },
+        { "id": 17, "clubId": 3, "type": 2, "name": "Název akce - body", "code": null, "active": true, "link": "/", "actionText": "Napsat recenzi" },
+        { "id": 18, "clubId": 4, "type": 4, "name": "Název akce - procenta", "code": null, "active": true, "link": "/", "actionText": null },
+        { "id": 19, "clubId": 4, "type": 5, "name": "Název akce - čas", "code": null, "active": true, "link": "/", "actionText": null }
     ],
     "account_benefits": [
         { "title": "Doprava zdarma", "text": "užijte si komfort dopravy zdarma, který získáte už od Bronze klubu" },
         { "title": "Vrácení až do 100 dnů", "text": "vyzkoušejte si v klidu naše prádlo, vrátit ho můžete až 100 dnů od zakoupení" },
         { "title": "Výměna zdarma", "text": "prádlo můžete vyměnit zdarma a z pohodlí vašeho domova" },
         { "title": "Akce až o 3 dny dříve", "text": "mějte náskok před běžnými zákazníky a vyberte si ty nejlepší kousky za skvělé ceny" }
-    ]
+    ],
+    "client_basket": {
+        "count": 5,
+        "points": 30
+    }
 }

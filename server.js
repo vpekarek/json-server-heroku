@@ -15,9 +15,9 @@ server.use(jsonServer.rewriter({
     "/refunds/:number": "/refunditems?number=:number",
     "/faq/:type": "/faq?type=:type",
     "/client/address": "/addresses",
+    "/basket/info": "/client_basket",
     "/club/bonuses": "/account_bonuses",
-    "/club/benefits": "/account_benefits",
-    "/club/info": "/loyalty"
+    "/club/benefits": "/account_benefits"
 }));
 
 server.use(middlewares);
