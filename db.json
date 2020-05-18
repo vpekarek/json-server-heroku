@@ -24,6 +24,9 @@
         { "code": "form_field_error_max_value", "text": "Zadaná hodnota nesmí být větší než $limit$." },
         { "code": "form_field_error_min_length", "text": "Minimální délka je $limit$ znaků." },
         { "code": "form_field_error_max_length", "text": "Maximální délka je $limit$ znaků." },
+        { "code": "validation_name_fullname", "text": "Zadejte jméno a příjmení." },
+        { "code": "validation_street_with_number", "text": "Zadejte ulici a číslo popisné." },
+        { "code": "validation_phone_only_digits", "text": "Zadejte pouze číslice." },
 
 
         { "code": "onboarding_button_save", "text": "Uložit a pokračovat" },
@@ -56,20 +59,23 @@
         { "code": "onboarding_setting_calendar_title", "text": "Hlídač událostí" },
         { "code": "onboarding_setting_calendar_desc", "text": "Už nikdy nezmeškáte nákup vhodného dárku k svátku či narozeninám" },
 
+        { "code": "onboarding_campaign_desc", "text": "Buďte vždy v obraze o aktuálních trendech a slevách. Vyberte si, co vás zajímá" },
 
-        { "code": "onboarding_", "text": "" },
+        { "code": "onboarding_final_title", "text": "Skvělá<br />práce $name$!" },
+        { "code": "onboarding_final_title_no_name", "text": "Skvělá práce!" },
+        { "code": "onboarding_final_desc", "text": "Teď jsou vám všechny výhody k dispozici" },
+        { "code": "onboarding_final_note", "text": "Co dál?" },
+        { "code": "onboarding_final_link_shop", "text": "Jít nakupovat" },
+        { "code": "onboarding_final_link_shop_url", "text": "/podprsenky" },
+        { "code": "onboarding_final_link_account", "text": "Můj účet" },
 
 
         { "code": "navigation_main_title", "text": "Můj účet" },
         { "code": "navigation_account_title", "text": "Nastavení účtu" },
         { "code": "navigation_orders", "text": "Objednávky" },
         { "code": "navigation_refund", "text": "Výměny a vrácení" },
-        { "code": "navigation_club", "text": "Klubové bonsy" },
-        { "code": "navigation_loyalty", "text": "Věrnostní program" },
-        { "code": "navigation_loyalty_info", "text": "($points$ bodů)" },
         { "code": "navigation_vouchers", "text": "Dárkové šeky" },
         { "code": "navigation_settings", "text": "Nastavení" },
-        { "code": "navigation_vouchers_info", "text": "$count$" },
         { "code": "navigation_client", "text": "Osobní údaje a adresy" },
         { "code": "navigation_change_password", "text": "Změna hesla" },
         { "code": "navigation_sizes", "text": "Moje velikosti" },
@@ -78,7 +84,6 @@
         { "code": "navigation_social_sites", "text": "Sociální sítě" },
         { "code": "navigation_cards", "text": "Platební karty" },
         { "code": "navigation_calendar", "text": "Hlídač událostí" },
-        { "code": "navigation_logout", "text": "Odhlásit se" },
 
         { "code": "registration_title", "text": "Přidejte se do Astratex klubu" },
         { "code": "registration_success_title", "text": "Vítejte v Astratex klubu" },
@@ -157,11 +162,6 @@
         { "code": "loyalty_header_no_points_text", "text": "Hodnotu každého nákupu vám připíšeme do vašich bodů" },
         { "code": "loyalty_header_more_info", "text": "ZJISTIT VÍCE" },
 
-        { "code": "loyalty_header_points_on_way", "text": "Body na cestě" },
-        { "code": "loyalty_header_date_on_way", "text": "Další body připíšeme" },
-        { "code": "loyalty_header_date_on_way_format", "text": "$date$ ($points$ bodů)" },
-        { "code": "loyalty_header_group", "text": "Zákaznická skupina" },
-        { "code": "loyalty_header_points_to_next_group", "text": "K dosažení výšší skupiny" },
         { "code": "loyalty_header_expiration", "text": "$date$ vám expiruje $points$ bodů" },
         { "code": "loyalty_header_nextpoints_show", "text": "ZOBRAZIT BODY NA CESTĚ" },
         { "code": "loyalty_header_nextpoints_hide", "text": "SKRÝT BODY NA CESTĚ" },
@@ -171,13 +171,6 @@
         { "code": "loyalty_history_title", "text": "Historie účtu" },
         { "code": "loyalty_history_balance", "text": "Zůstatek" },
         { "code": "loyalty_history_points", "text": "b." },
-
-        { "code": "loyalty_history_points_added", "text": "Připsán 1 bod" },
-        { "code": "loyalty_history_points_added_2", "text": "Připsány $points$ body" },
-        { "code": "loyalty_history_points_added_5", "text": "Připsáno $points$ bodů" },
-        { "code": "loyalty_history_points_used", "text": "Využit 1 bod" },
-        { "code": "loyalty_history_points_used_2", "text": "Využity $points$ body" },
-        { "code": "loyalty_history_points_used_5", "text": "Využito $points$ bodů" },
 
         { "code": "vouchers_title", "text": "Dárkové šeky" },
         { "code": "vouchers_breadcrumbs", "text": "Dárkové šeky" },
@@ -207,8 +200,6 @@
         { "code": "client_address_delete_question", "text": "Opravdu chcete údaje odstranit?" },
         { "code": "client_address_delete_confirm", "text": "Ano" },
         { "code": "client_address_delete_cancel", "text": "Ne" },
-        { "code": "client_address_validation_name_fullname", "text": "Zadejte jméno a příjmení." },
-        { "code": "client_address_validation_street_with_number", "text": "Zadejte ulici a číslo popisné." },
 
         { "code": "change_password_title", "text": "Změna hesla" },
         { "code": "change_password_breadcrumbs", "text": "Změna hesla" },
@@ -219,7 +210,6 @@
         { "code": "change_password_requirement_title", "text": "Zvolte heslo, které se dobře pamatuje" },
         { "code": "change_password_requirement_length", "text": "Obsahuje alespoň 8 znaků" },
         { "code": "change_password_requirement_chars", "text": "Skládá se z číslic i písmen a nejlépe speciálních znaků (např. !?*)" },
-        { "code": "change_password_btn", "text": "Změnit heslo" },
 
         { "code": "sizes_title", "text": "Moje velikosti" },
         { "code": "sizes_breadcrumbs", "text": "Moje velikosti" },
@@ -240,6 +230,7 @@
         { "code": "sizes_btn_choose", "text": "Vybrat velikost" },
         { "code": "sizes_add_next", "text": "Přidat další velikost" },
         { "code": "sizes_recommend", "text": "Doporučit velikost" },
+        { "code": "sizes_link_to_advice", "text": "/poradna" },
         { "code": "sizes_help_title", "text": "Nevíte si při určení velikost rady?" },
         { "code": "sizes_help_desc", "text": "S výběrem velikosti vám jistě pomohou naše<br /><a href='/'>velikostní tabulky</a>" },
         { "code": "sizes_bra_circum", "text": "Velikost obvodu" },
@@ -278,7 +269,6 @@
         { "code": "calendar_event_edit_detail", "text": "Detail události" },
         { "code": "calendar_event_edit_description", "text": "Vyplňte prosím detaily události" },
         { "code": "calendar_event_field_name", "text": "Jméno" },
-        { "code": "calendar_event_field_name_placeholder", "text": "Jméno přítelkyně, kamarádky, ..." },
         { "code": "calendar_event_field_date", "text": "Datum události" },
         { "code": "calendar_event_field_date_placeholder", "text": "Vyberte datum události" },
         { "code": "calendar_event_field_type", "text": "" },
@@ -300,7 +290,8 @@
             "lastName": "Pekárek",
             "vocative": "Václave",
             "email": "vp@programia.cz",
-            "sex": 0
+            "sex": 0,
+            "needChangePassword": true
         },
         "campaign": {
             "newsletter": {
