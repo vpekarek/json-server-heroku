@@ -291,7 +291,8 @@
             "vocative": "Václave",
             "email": "vp@programia.cz",
             "sex": 0,
-            "needChangePassword": true
+            "needChangePassword": true,
+            "isAccountCompleted": false
         },
         "campaign": {
             "newsletter": {
@@ -316,12 +317,12 @@
         "calendar": {
             "notifyWhen": 0,
             "events": [
-                { "id": 1, "date": "2019-12-18T00:00:00.000", "eventType": 0, "name": "Jiřina Bohdalová", "notifyEmail": true, "notifySms": false },
-                { "id": 2, "date": "2019-12-15T00:00:00.000", "eventType": 1, "name": "Svatoslava Svátková", "notifyEmail": true, "notifySms": true }
+                { "id": 1, "date": "2019-12-18T00:00:00.000", "eventType": 0, "name": "Jiřina Bohdalová", "notifyByEmail": true, "notifyBySms": false },
+                { "id": 2, "date": "2019-12-15T00:00:00.000", "eventType": 1, "name": "Svatoslava Svátková", "notifyByEmail": true, "notifyBySms": true }
             ]
         },
         "cards": [
-            { "name": "516844****2965", "validTo": "2020-08-30T00:00:00.000" }
+            { "id": 1, "name": "", "number": "516844****2965", "validTo": "2020-08-30T00:00:00.000" }
         ],
         "loyalty": {
             "points": 16521,
@@ -338,8 +339,7 @@
                 { "orderNumber": "", "description": "Vypršela platnost", "date": "2020-01-11T00:00:00.000", "balance": 8600, "transfer": -2200 },
                 { "orderNumber": "11356698", "description": "", "date": "2019-09-29T00:00:00.000", "balance": 10800, "transfer": 1800 }
             ]
-        },
-        "isAccountCompleted": false
+        }
     },
     "club": {
         "id": 1,
@@ -398,7 +398,7 @@
             "company": "",
             "companyId": "",
             "companyTaxId": "",
-            "isDeliveryDefault": true
+            "isDefaultDelivery": true
         },
         {
             "id": 2,
@@ -416,7 +416,7 @@
             "company": "Programia s.r.o.",
             "companyId": "",
             "companyTaxId": "",
-            "isDeliveryDefault": false
+            "isDefaultDelivery": false
         }
     ],
     "promos": [
